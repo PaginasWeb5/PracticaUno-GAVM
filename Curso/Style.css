@@ -1,0 +1,267 @@
+* {
+    margin:0; 
+    padding:0;
+    
+  }
+  /*todo los estilos de texto*/
+
+  .texto_de_parrafos{
+    line-height: 1.2;
+    text-align:justify;
+    padding: 1mm;
+    font-family: 'Roboto', sans-serif;
+    font-size:20px;
+ }
+ .imgback{
+     position: fixed;
+     height:800px;
+     width:100%;
+     z-index:-1;
+     top:-20%;
+    
+    /* transform: translateX(-50) translateY(-50);*/
+
+
+ }
+ 
+ .encabezados{
+     position:relative;
+      text-align:center;
+      font-family:'Bree Serif', serif;
+      font-size:35px;
+       }
+
+ .listado{
+    left:100px;
+    top:20px;
+     height:210px;
+     width:710px;
+     position:relative;
+     background-color:#000;
+     color:white;
+     border-radius:10px;
+     border-color:silver;
+     font-size:18px;
+     float: left;
+ }
+ .lista{
+    position:relative;
+      text-align:left;
+      left:30px;
+      line-height: 1.3;
+      font-size:20px;
+ }
+ .subencabezados{
+    position:relative;
+     left:30px;
+      font-family:'Bree Serif', serif;
+      font-size:25px;
+ }
+ .pre{
+     left:200px;
+     height:95px;
+     width:600px;
+     position:relative;
+     background-color:#000;
+     color:white;
+     border-radius:10px;
+     font-size:17px;
+     border-color:silver;
+ }
+ .pe{
+     position: relative;
+     left:10px;
+ }
+
+
+  /*todos los cuadros*/
+ 
+ .header{
+     position: relative;
+     width:1000px;
+     height:120px;
+     margin:20px auto;
+     border-radius:10px;
+        }
+
+ .logo{
+     position:absolute;
+     top:20PX;
+     left:65PX;
+     height:80px;
+     width:80px;
+     background: #ccc;
+     border-radius: 10px;
+ }
+
+ #redes{
+    position:absolute;
+    height:42px;
+    width:42px;
+    border-radius:100%;
+    background: rgba(204, 204, 204, 0.356);
+    
+ }
+ 
+.logouno{
+     top:12px;
+     right:19px;
+     margin:5px;
+ }
+ .logodos{
+     top:12px;
+     right:71px;
+     margin:5px;
+ }
+
+ .encabezado{
+    position:absolute;
+    height:50px;
+    width:850px;
+    top:35px;
+    left:150px;
+    background: rgba(0, 170, 170, 0.452);
+    font-family: 'Abril Fatface', cursive;
+    
+ }
+       
+.barra{
+     width:1000px;
+     height:48px;
+     background: rgba(48, 194, 123, 0.788);
+     position: relative;
+     margin:20px auto;
+     border-radius:10px;
+ }
+#botones{
+    float: left;
+    width:196px;
+    height:44px;
+    background:rgba(51, 51, 51, 0.123); 
+    list-style:none;
+    font-family: 'Bree Serif', serif;
+}
+.link{
+    position:relative;
+     text-align: center;
+     color:rgb(22, 61, 105);
+     left:10px;
+     cursor: pointer;
+    
+}
+.link2{
+    position:relative;
+     text-align: center;
+     color:rgb(22, 61, 105);
+     left:35px;
+     top:5px;
+     cursor: pointer;
+    
+}
+
+.margen1{
+margin: 2px 30px 2px 110px;
+margin:#090;
+}
+.margen2{
+margin:2px 50px;
+}
+       
+.top{
+  width:1000px;
+  height:196px;
+  list-style:none;
+  position: relative;
+  margin:20px auto;
+ }
+
+ .top ul li{
+     float: left;
+     width:323px;
+     height: 192px;
+     background: rgba(5, 192, 167, 0.479);
+     margin:2px 5px 2px 5px;
+     border-radius:10px;
+     list-style:none;
+ }
+  .contenido
+  {
+     width:1000px;
+     height:700px;
+     background: rgba(192, 190, 190, 0.418);
+     position: relative;
+     margin:15px auto;
+     border-color:teal;
+     border-radius:5px;
+     
+  }
+  
+  .contenido2
+  {
+     width:1000px;
+     height:800px;
+     background: rgba(192, 190, 190, 0.418);
+     position: relative;
+     margin:15px auto;
+     border-color:teal;
+     border-radius:5px;
+     
+  }
+  .contenido3
+  {
+     width:1000px;
+     height:340px;
+     background: rgba(192, 190, 190, 0.418);
+     position: relative;
+     margin:15px auto;
+     border-color:teal;
+     border-radius:5px;
+     
+  }
+  .Izq{
+      position: relative;
+      width:10%;
+      float: left;
+      margin-top:50px;
+      
+  }
+  .der{
+     position: relative;
+      width:90%;
+      float: right;
+  }
+
+  aside#derecho{
+    position:absolute;
+    width:200px;
+     height:453px;
+     left:0;
+     top:0;
+     background: rgb(70, 9, 5);
+             
+
+  }
+
+  .tabla{
+      width: 90%;
+      border:1px solid black;
+      position:relative;
+      left:50px;
+      top:10px;
+  }
+
+  footer {
+    position:relative;
+     width:1000px;
+     height:70px;
+     background: #0B615E;
+     position: relative;
+     margin:20px auto;
+  }
+ 
+  .video{
+      height:100%;
+      position:fixed;
+      width:100%;
+  }
+      

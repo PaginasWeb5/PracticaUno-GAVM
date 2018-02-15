@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Encuentra y Aprende</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Style.css" />
+    <script src="main.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Bree+Serif" rel="stylesheet">
+</head>
+<body>
+        <img src="foto3.jpg"  class="imgback"> 
+        <!--La parte superior-->
+    <header class="header">
+        <h1 class="encabezado" >APRENDE LO BÁSICO DE HTML Y CSS </h1>
+        <div><img class="logo" src=Gustavo.ico  > </div>
+
+       
+    </header>
+
+        
+        <!--barra de navegacion-->
+    <nav class="barra">
+        <ul>
+            <li id="botones" class="margen1"><a href=https://www.youtube.com/watch?v=B5VjL2f1IQg target="_blank" class="link">La Historia de HTML EN 2 min.</a></li>
+            <li id="botones" class="margen2"><a href=https://www.youtube.com/watch?v=aoFtkUsX0Vs target="_blank"  class="link2">La hirtoria de CSS</a></li>
+            <li id="botones" class="margen2"><a href="https://htmlcolorcodes.com/es/" target="_blank"  class="link">Aprende el codigo de colores en CSS</a></li>
+        </ul>
+    </nav>
+         <!--parte superior-->
+    <!--<section class="top">
+        <ul>
+            <li>
+                <img src=foto1.jpg width=100px>
+                <h2 >Ejemplo de insercion de una imagen y su descripcion</h2>
+                <p>Es solo un ejemplo de tres etiquetas, etiqueta imagen, etiqueta titulo h2, 
+                    y un una etiqueta p parragraf </p>
+            </li>
+            <li>
+                <img src=foto2.jpg width=190px>
+                <h2> Esto es una prueba de lo que puedes hacer con HTML5 y CSS3</h2>
+            </li>
+            <li>
+                <img >
+                <h2></h2>
+                <p></p>
+            </li>
+        </ul>
+    </section>-->
+        
+
+        <!--Seccion principal html-->
+        <section class="contenido">
+                <h2 class="encabezados" > &lt; El rol de HTML &gt;</h2>
+                <br>
+                <P class="texto_de_parrafos">Sus siglas en ingles son <b>Hypertext Markup Lenguage</b> y su  traduccion es <strong><i>Lenguage 
+                    de marcado de Hipertexto.</i></strong><P>
+                <br>
+                <div>
+                    <h3 class="subencabezados">Introdución</h3>
+                    <br>
+                    <p class="texto_de_parrafos">Es un lenguaje de marcado que se utiliza para el desarrollo de páginas de Internet. EL HTML se encarga de desarrollar una descripción 
+                        sobre los contenidos que aparecen como textos y sobre su estructura, complementando dicho texto con diversos objetos 
+                        (como fotografías, animaciones, etc).</p>
+                    <br>
+                     <p class="texto_de_parrafos"> Es un lenguaje muy simple y general que sirve para definir otros lenguajes que tienen que ver con el formato de los documentos.
+                            El texto en él se crea a partir de etiquetas, también llamadas tags, que permiten interconectar diversos conceptos y formatos.</p>
+                     
+                     <pre class="pre" ><code > La abertura de un Cierre y una Abertura de una etiqueta 
+                         &lt;Inicio de la etiqueta&gt; 
+                           Aqui va el contenido                        
+                          &lt;/Fin de la etiqueta&gt; </code>
+                    </pre>
+                   <section>
+                    <nav class="Izq">
+                        <p  class="texto_de_parrafos" S>ETIQUETAS MAS IMPORTANTES</p>
+                    </nav>
+                    <nav class="listado" class="der">
+                        <ul class="lista">
+                            <li>La etiqueta &lt;!DOCTYPE html&gt; sirve para definir que el documento que usaras sera HTML5</li>
+                            <li>La etiqueta &lt;html&gt; Esta etiqueta refencia a el elemento raiz de una página HTML</li>
+                            <li>La etiqueta &lt;head&gt; define el documento que usaras sera HTML5</li>
+                            <li>La etiqueta &lt;title&gt; especifica un titulo para el documento</li>
+                            <li>La etiqueta &lt;body&gt;definir que el cuerpo de la paguina web, lo que se mostrara</li>
+                            <li>La etiqueta &lt;h1&gt;  define un titulo importante</li>
+                            <li>La etiqueta &lt;p&gt; se utiliza para escribir parrafos o texto</li>
+                        </ul>
+                    </nav>
+                   </section>   
+                </div>
+            </section>
+
+       <!--Seccion principal css-->
+    <section class="contenido2">
+            <h2 class="encabezados" > { El rol de CSS } </h2>
+            <br>
+            <P class="texto_de_parrafos">Sus siglas en ingles son  <b>Cascading Style Sheet</b> y su  traduccion es <strong><i>Hoj de estilo en Cascada.</i></strong><P>
+            <br>
+            <div>
+                <h3 class="subencabezados">Introdución</h3>
+                <br>
+                <p class="texto_de_parrafos">lenguaje que describe la presentación de los documentos estructurados en hojas de estilo para diferentes métodos de interpretación, es decir,
+                     describe como se va a mostrar un documento en pantalla.</p>
+                <br>
+                <h3 class="subencabezados">¿Para que sirve?</h3>
+                 <p class="texto_de_parrafos"> CSS es una especificación desarrollada por el W3C (World Wide Web Consortium) para permitir la separación de los contenidos de los documentos escritos en HTML, XML, XHTML, SVG, o XUL de la presentacin del documento con las hojas de estilo, 
+                     incluyendo elementos tales como los colores, fondos, márgenes, bordes, tipos de letra..., modificando as la apariencia de una página web de una forma más sencilla, permitiendo a los desarrolladores controlar el estilo y formato de sus documentos.</p>
+                     <br>
+                 <h3 class="subencabezados">Formas de agregar <ins>Estilo</ins></h3>
+                 <p class="texto_de_parrafos"> La información CSS se puede proporcionar por varias fuentes, ya sea adjunto como un documento por separado o incorporado en el documento HTML, y dentro de estas posibilidades destacan tres formas de dar estilo a un documento web:</p>
+                     <br>
+                     <ul class="lista">
+                         <li> <ins>Estilo Externa:</ins>Se almacena en un archivo diferente al del archivo con el código HTML al cal estar vinculado a través del elemento link </li>
+                         <li><ins> Estilo Interna:</ins>Esta incorporada a un documento HTML, a través del elemento style </li>
+                         <li><ins>Estilo en Línea:</ins>Sirve para insertar el lenguaje de estilo directamente dentro de la sección body con el elemento style.</li>
+                     </ul>
+                     <br>
+                 
+                 <pre class="pre" ><code >               h2 ----------------> es el selector
+               {color: green;} ---> es la declaración
+               color -------------> es la propiedad o atributo
+               green -------------> es el valor</code>
+                </pre>
+
+               
+            </div>
+        </section>
+    <section class="contenido3">
+            <table class="tabla">
+                    <caption><h3>ETIQUETAS PARA HACER UNA TABLA</h3></caption>  
+                        <thead>
+                          <th>NOMBRE</th>
+                          <th>REPRESENTACION </th>
+                          <th>RELACION</th>
+                          <th>USO</th>
+                        </thead>
+                        <tbody>
+                          <tr>
+                              <td>Etiqueta caption</td>
+                              <td>&lt;caption&gt;</td>
+                              <td>Parte inicial de una tabla</td>
+                              <td>Esta etiqueta define el titulo que llevara la paguina</td>
+                              
+                          </tr>
+                          <tr>
+                              <td>Etiqueta thead</td>
+                              <td>&lt;thead&gt;</td>
+                              <td rowspan="2">Seccion Encabezado</td>
+                              <td>Esta etiqueta se encarga de define la seccion de la tabla en donde van los nomnbres de las columnas</td>
+                          </tr>
+                          <tr>
+                              <td>Etiqueta th</td>
+                              <td>&lt;th&gt;</td>
+                              <td>Esta etiqueta define el nombre de los encabezados de las columnas
+                                    y se definen el numero de columnas con el numero de etiquetas que pongas.</td>
+                          </tr>
+                          <tr>
+                                <td>Etiqueta tbody</td>
+                                <td>&lt;tbody&gt;</td>
+                                <td rowspan="3">Cuerpo de la tabla</td>
+                                <td>Etiqueta donde indica que inica la seccion del cuerpo de la tabla</td>   
+                           </tr>
+                           <tr>
+                                <td> Etiqueta tr</td>
+                                <td>&lt;tr&gt;</td>
+                                
+                                <td>Etiqueta indica una fila de la tabla y dentro de ella ira otra etoiqueta</td>  
+                            
+                            </tr>
+                            <tr>
+                                    <td> Etiqueta td</td>
+                                    <td>&lt;td&gt;</td>
+                                    
+                                    <td>Etiqueta  indica el llenado de de una celda de acuerdo al orden o posicion que escribiste los &lt;th&gt; </td>                         
+                            </tr>
+                            <tr>
+                                <td>Etiqueta tfoot</td>
+                                <td>&lt;tfoot&gt;</td>
+                                <td >ultima parte</td>
+                                <td>etiqueta que define la ultima parte de la tabla</td>  
+                            </tr>
+        
+                              
+                        </tbody>
+                        <tfoot>
+                            
+                        </tfoot>
+                    
+                 </table>
+       
+        </section>
+
+    <footer>
+        <section>&copy;Tdos los derechos reservado</section>
+        <div><img id="redes" class="logouno" src="facebook.png"></div>
+        <div><img id="redes" class="logodos" src="instragram.png"></div>
+    </footer>
+
+ </body>
+</html>
